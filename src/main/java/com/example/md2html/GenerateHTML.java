@@ -1,4 +1,4 @@
-package com.example.md2htrml;
+package com.example.md2html;
 
 import org.jetbrains.annotations.NotNull;
 

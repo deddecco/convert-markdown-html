@@ -1,4 +1,5 @@
-package com.example.md2htrml;
+package com.example.md2html;
+
 import java.util.StringTokenizer;
 
 
@@ -46,9 +47,8 @@ public class TokenizerTest {
      }
 
 
-     public static String convertHeading(String firstToken) {
+     public static void convertHeading(String firstToken) {
           GenerateHTML.Heading heading = new GenerateHTML.Heading();
-
-          return "Hello, World!";
+          heading.printHeadingText(countHashtags(firstToken), firstToken);
      }
 }
